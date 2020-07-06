@@ -2,7 +2,7 @@ import logging
 
 # 配置日志模块
 LOG_FMT = "%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s:%(message)s"
-LOG_DATE_FMT = "%Y-%m-%d %H-%M-%S"
+LOG_DATE_FMT = "%Y-%m-%d %H:%M:%S"
 LOG_FILENAME = 'log.log'
 LOG_LEVEL = logging.DEBUG
 
